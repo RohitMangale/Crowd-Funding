@@ -1,0 +1,16 @@
+.button{
+    background: #000;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius:3px ;
+    font-size: 14px;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.delete{
+    background-color: #f03d3d;
+    cursor: pointer;
+}

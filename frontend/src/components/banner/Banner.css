@@ -1,0 +1,123 @@
+.banner-maindiv{
+    /* max-width: 1100px; */
+    position: relative;
+    width: 85% !important;
+    height: 4;
+    margin: 5rem auto !important;
+    flex-direction: row;
+    box-shadow: 0 0 15px rgba(171, 171, 171, 0.384);
+    background-image: url('../../assets/imgs/crowdfunsing.jpg');
+    background-position: top ;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.banner-onediv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2rem;
+    width: 50%;
+    height: 100%;
+    background: transparent;
+
+}
+
+
+.banner-onediv .subHeading{
+    /* font-size: var(--para); */
+    color: #5bd4d4 !important;
+    margin-bottom: 10px !important;
+    z-index: 5;
+    
+
+}
+
+.banner-onediv h1{
+    /* font-size: var(--heading); */
+    color: #fff !important;
+    /* font-size: 70px; */
+    font-size: clamp(2rem, 1.335rem + 3.04vw, 4.375rem);
+
+    line-height: 1.2;
+    margin-bottom: 10px;
+    z-index: 5;
+
+
+}
+
+.banner-onediv p{
+    /* font-size: var(--para); */
+    color: var(--lightGrey) !important;
+    /* color: #fff; */
+
+    margin-bottom: 25px;
+    z-index: 5;
+}
+
+
+.banner-onediv .btn{
+    /* font-size: var(--para);
+    color: var(--text-grey);
+    color: #fff;
+
+    margin-bottom: 25px; */
+    z-index: 5;
+}
+
+
+
+
+.banner-twodiv{
+    
+        position: absolute;
+        top: 0;        
+        right: 0;
+        left: -30%;
+        background-color:#00000083 ;
+        width: 80%; 
+        height: 100%; 
+        z-index: 2;
+        transform:  skewX(20deg); 
+}
+/* 
+.banner-twodiv img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+} */
+
+@media(max-width:700px){
+    .banner-maindiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: auto;
+        padding: 0 0 10% 0;
+    }
+    .banner-onediv{
+        width: 80%;
+        height: 80%;
+        background-color:#00000083 ;
+        border-radius: 0  10px 10px 0;
+
+        /* background: rgba(32, 32, 32, 0.4);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 2px );
+        -webkit-backdrop-filter: blur( 4px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+    }
+    .banner-twodiv{
+        width: 100%;
+        display: none;
+    }
+}

@@ -1,0 +1,85 @@
+#intern_pro{
+    padding: 0;
+    margin: 0;
+}
+#intern_pro .intern_pro{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5rem 2.5rem;
+    /* background: #eeeeee; */
+    gap: 3rem;
+}
+#intern_pro .intern_pro .intern_pro_img{
+    max-width: 600px;
+    height: 100%;
+
+}
+#intern_pro .intern_pro .intern_pro_img img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+#intern_pro .intern_pro .intern_pro_info{
+    max-width: 600px;
+}
+#intern_pro .intern_pro .intern_pro_info span{
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: #717375;
+}
+#intern_pro .intern_pro .intern_pro_info h1{
+    margin-bottom: 24px;
+    color: var(--bg-black);
+    font-weight: 700!important;
+    line-height: 100%!important;
+    letter-spacing: -0.03em;
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: var(--heading);
+}
+#intern_pro .intern_pro .intern_pro_info p{
+    font-size: var(--para);
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#intern_pro .intern_pro .intern_pro_info .uni_btn{
+    margin-top: 50px;
+    margin-bottom: 64px;
+}
+#intern_pro .intern_pro .intern_pro_info .uni_btn .uni_button{
+    
+
+    border-radius: 4px;
+    text-transform: none;
+    text-align: center;
+    max-width: 320px;
+    -webkit-transition: none;
+    transition: none;
+    color: #fff;
+    background: var(--satan);
+    /* box-shadow: inset 0 0 0 1px #0056d2; */
+    box-shadow: var(--satan);
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.1px;
+    padding: 12px 32px;
+
+}
+
+@media (max-width: 1000px){
+    #intern_pro .intern_pro{
+        flex-direction: column;
+        align-items: center;
+    }
+}

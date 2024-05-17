@@ -1,0 +1,60 @@
+
+
+.homeFaq{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5rem 30px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.homeFaq .faqCenter{
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ea;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.homeFaq .faqCenter .faqImg{
+  flex: 1 0  400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeFaq .faqCenter .faqImg img{
+  object-fit: auto;
+  width: 100%;
+  height: auto;
+}
+
+
+.faqs{
+  flex: 1 0 400px;
+  /* width: 60% !important; */
+  display: flex;
+  flex-direction: column;
+}
+
+
+.homeFaq .mainHeading{
+  padding: 0 0 0 10px;
+  text-align: center !important;
+}
+
+
+
+
+
+
+
+
+

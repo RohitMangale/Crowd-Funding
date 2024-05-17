@@ -1,0 +1,155 @@
+.int-details{
+    margin: 5rem auto;
+    max-width: var(--container-width-lg);
+    /* width: 100%; */
+    padding: 2rem;
+}
+.int-details .heading h1{
+
+    text-align: center;
+    font-size: var(--medium);
+    margin-bottom: 2rem;
+}
+.int-details .view_details{
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 23px;
+}
+
+.int-details .view_details .int-header{
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.int-details .view_details .int-header .status{
+    width: -webkit-fit-content;
+    width: fit-content;
+    width: -moz-fit-content;
+    border: 1px solid #ddd;
+    padding: 4px 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    gap: 4px;
+    
+}
+.int-details .view_details .int-header .status i{
+    color: #f95320;
+}
+.int-details .view_details .int-header .status span{
+    font-size: 12px;
+    line-height: 1.33333333;
+    font-weight: 500;
+    color: #484848;
+}
+.int-details .view_details .int-header .heading{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    gap: 8px;
+}
+.int-details .view_details .int-header .heading .post h2{
+    font-size: 20px;
+    line-height: 1.25;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+.int-details .view_details .int-header .heading .company_name h3{
+    font-size: 18px;
+    line-height: 1.42857143;
+    font-weight: 600;
+}
+.int-details .view_details .int-header .heading .location{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    gap:5px;
+}
+.int-details .view_details .int-header .heading .location i{
+    font-size: 15px;
+    color: #484848;
+}
+.int-details .view_details .int-header .heading .location  p{
+    font-size: 18px;
+    font-weight: 600;
+
+    padding: 0;
+    margin: 0;
+}
+.int-details .view_details .int-header .info{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    gap: 5rem;
+    padding-bottom: 2rem;
+    flex-wrap: wrap;
+    border-bottom:1px solid #ddd ;
+}
+.int-details .view_details .int-header .info .start_date{
+    display: flex;
+    flex-direction: column;
+}
+.int-details .view_details .int-header .info .start_date .logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 0.4rem;
+}
+.int-details .view_details .int-header .info .start_date .logo i{
+    font-size: 15px;
+    color: #484848;
+}
+.int-details .view_details .int-header .info .start_date .logo p{
+    padding: 0;
+    margin: 0;
+}
+.int-details .view_details .int-header .info .start_date .sub-info p{
+    padding: 0;
+    margin: 0;
+}
+
+
+.int-details .view_details .about_company{
+    text-align: left;
+    margin-bottom: 2rem;
+} 
+.int-details .view_details .about_company .about_head h2{
+    font-size: 20px;
+    line-height: 1.25;
+    font-weight: 600;
+    
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.int-details .view_details .about_company .about_head a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    color: #000;
+}
+.int-details .view_details .about_company .about_info p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+.int-details .view_details .about_company .text-container{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+.btn_center{
+    display: flex;
+    justify-content: center;
+}
