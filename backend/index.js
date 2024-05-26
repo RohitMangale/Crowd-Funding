@@ -17,7 +17,7 @@ const port = process.env.PORT || 8000;
 
 const corsOptions = {
   // allows any domain to access server , more restricted during deployment
-  origin: ["https://crowd-funding-frontend-j2711dh8b.vercel.app"] , 
+  origin:true, 
   methods:["POST,GET,PUT,DELETE"],
   credentials:true
 };
