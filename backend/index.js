@@ -57,12 +57,10 @@ mongoose
   .connect(process.env.MONGO_URL) // specify db name as object or else it will save data in test db
   .then(() => {
     console.log("Connected to Mongoose");
-    console.log("Listening to port 5000...");
+    console.log("Server Started...");
   })
   .catch((err) => console.log(err));
 
-app.listen(5000, "localhost", () => {
-});
 
 // app.listen(port, () => {
 //   // connectDB();
