@@ -16,7 +16,10 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 const corsOptions = {
-  origin: https://crowd-funding-frontend-j2711dh8b.vercel.app, // allows any domain to access server , more restricted during deployment
+  // allows any domain to access server , more restricted during deployment
+  origin: ["https://crowd-funding-frontend-j2711dh8b.vercel.app"] , 
+  methods:["POST,GET,PUT,DELETE"],
+  credentials:true
 };
 
 // mongoose.set("strictQuery", false);
