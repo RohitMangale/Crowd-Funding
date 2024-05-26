@@ -61,6 +61,8 @@ mongoose
   })
   .catch((err) => console.log(err));
 
+app.listen(5000, "localhost", () => {
+});
 
 // app.listen(port, () => {
 //   // connectDB();
