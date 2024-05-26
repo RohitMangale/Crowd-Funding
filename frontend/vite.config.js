@@ -7,7 +7,7 @@ export default defineConfig({
   server : {
     proxy : {
       '/mp' : {
-        target: 'http://localhost:5000',
+        target: 'https://crowd-funding-snowy.vercel.app',
         changeOrigin: true
       }
     }
