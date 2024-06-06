@@ -41,7 +41,7 @@ app.use((err, req, res, next) => {
 });
 
 mongoose
-  .connect("mongodb+srv://rohitmangale010:Dr@gn3al*MdB@clustercrowdoc.sktgybr.mongodb.net/?retryWrites=true&w=majority&appName=ClusterCrowDoc") // specify db name as object or else it will save data in test db
+  .connect("mongodb+srv://rohitmangale010:Dr@gn3al*MdB@clustercrowdoc.sktgybr.mongodb.net/") // specify db name as object or else it will save data in test db
   .then(() => {
     console.log("Connected to Mongoose");
     app.listen(port, () => {
