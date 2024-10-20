@@ -86,6 +86,3 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 ## License 📜
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-```
-
-You can copy and paste this directly into your README.md file! Adjust the URLs and any specific details as necessary.
