@@ -76,7 +76,7 @@ cd crowdfunding-website
 
 3. Start the frontend application:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## Contributing 🤝
